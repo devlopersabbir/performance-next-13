@@ -1,4 +1,4 @@
-FROM node:18-alpine
+FROM node:16-slim
 WORKDIR /performance_next13
 COPY ./package*.json ./
 RUN npm install
