@@ -1,5 +1,5 @@
 FROM node:16-slim
-WORKDIR /performance_next13
+WORKDIR /performance
 COPY ./package*.json ./
 RUN npm install
 COPY . .
