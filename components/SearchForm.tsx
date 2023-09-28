@@ -19,7 +19,7 @@ const SearchForm = () => {
         />
         <Input
           id="search"
-          className="base-regular h-fit boder-0 bg-black-400 py-6 pl-20 pr-8 text-white-800 !ring-0 !ring-offset-0 placeholder:text-white-800 "
+          className="base-regular h-fit bg-black-400 py-6 pl-20 pr-8 text-white-800 !ring-0 !ring-offset-0 placeholder:text-white-800 outline-none border-none"
           type="text"
           placeholder="Search..."
           value={search}
