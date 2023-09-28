@@ -1,4 +1,5 @@
-import React from "react";
+import Footer from "@/components/footer/Footer";
+import Navbar from "@/components/header/Navbar";
 
 type TLayout = {
   children: React.ReactNode;
@@ -7,9 +8,9 @@ type TLayout = {
 const Layout = ({ children }: TLayout) => {
   return (
     <>
-      navbar
+      <Navbar />
       {children}
-      footer
+      <Footer />
     </>
   );
 };
