@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="fixed flex-center top-0 z-50 w-full border-b-2 border-black-200  py-7 text-white">
+    <nav className="fixed flex-center top-0 z-50 w-full border-b-2 border-black-200  py-7 text-white backdrop-blur-xl">
       <div className="flex-between mx-auto w-full max-w-screen-2xl px-6 xs:px-8 sm:px-16">
         <Link href="/">
           {/* <Image src="/jsm-logo.svg" alt="LOGO" width={55} height={40} /> */}
