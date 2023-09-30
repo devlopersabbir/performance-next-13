@@ -35,6 +35,27 @@ const schema = {
       title: "Poster",
       type: "image",
       vaidation: (Rule: any) => Rule.required(),
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: "category",
+      title: "Category",
+      type: "string",
+      vaidation: (Rule: any) => Rule.required(),
+      options: {
+        list: [
+          "frontend",
+          "backend",
+          "next 13",
+          "java",
+          "javascript",
+          "nodejs",
+          "spring boot",
+          "others",
+        ],
+      },
     },
   ],
 };
