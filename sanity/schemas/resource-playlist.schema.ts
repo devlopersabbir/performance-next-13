@@ -2,7 +2,7 @@ const schema = {
   name: "resourcePlaylist",
   title: "Resource Playlist",
   type: "document",
-  filelds: [
+  fields: [
     {
       name: "title",
       title: "Title",
