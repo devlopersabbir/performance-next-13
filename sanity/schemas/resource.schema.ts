@@ -30,5 +30,11 @@ const schema = {
       type: "number",
       initialValue: 0,
     },
+    {
+      name: "poster",
+      title: "Poster",
+      type: "image",
+      vaidation: (Rule: any) => Rule.required(),
+    },
   ],
 };
