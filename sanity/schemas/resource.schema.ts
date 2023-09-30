@@ -24,5 +24,11 @@ const schema = {
       type: "url",
       validation: (Rule: any) => Rule.required(),
     },
+    {
+      name: "views",
+      title: "Views",
+      type: "number",
+      initialValue: 0,
+    },
   ],
 };
