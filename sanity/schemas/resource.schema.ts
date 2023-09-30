@@ -2,7 +2,7 @@ const schema = {
   name: "resource",
   title: "Resource",
   type: "document",
-  fileld: [
+  filelds: [
     {
       name: "title",
       title: "Title",
@@ -59,3 +59,5 @@ const schema = {
     },
   ],
 };
+
+export default schema;
